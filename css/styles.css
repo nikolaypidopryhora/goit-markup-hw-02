@@ -9,7 +9,6 @@ body {
 
 button {
     cursor: pointer;
-    border: none;
 }
 
 a {
@@ -31,7 +30,7 @@ li {
     text-transform: uppercase;
 }
 
-.logo span {
+.logo .logo-header {
     color: #2E2F42;
 }
 
@@ -76,7 +75,6 @@ li {
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: #FFF;
-    border-radius: 4px;
     line-height: 1.5
 }
 
@@ -90,7 +88,6 @@ h3 {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    
 }
 
 .section-header {
@@ -102,17 +99,39 @@ h3 {
     color: #2E2F42;
 }
 
-.portfolio-item {
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-item {
     background-color: #FFFFFF;
 }
 
-.timmate-pos {
+.teammate-name {
+    letter-spacing: 0.02em;
+}
+
+.teammate-pos {
     font-size: 16px;
 }
 
+.portfolio-section {
+    
+}
 
+.portfolio-item-name {
+    letter-spacing: 0.02em;
+}
 
-footer {
+.page-footer {
     background: #2E2F42; 
     color: #FFF;
+}
+
+.logo .logo-footer {
+    color: #f4f4fd;
+}
+
+.text-footer {
+    color: #F4F4FD;
 }
