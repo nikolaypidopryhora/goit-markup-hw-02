@@ -4,6 +4,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    background-color: #FFF;
 }
 
 button {
@@ -21,17 +22,17 @@ li {
 }
 
 .logo {
-    color: #2E2F42;
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 0.17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .logo span {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .menu-link {
@@ -44,17 +45,20 @@ li {
     color: #404BBF;
 }
 
-.contact {
+.contact-data {
     font-style: normal;
+}
+
+.contact {
     color: #434455;
 }
+
 .contact:hover,
 .contact:focus {
     color: #404BBF;
 }
 
 .hero-section {
-    height: 600px;
     background: #2E2F42;
     text-align: center;
 }
@@ -64,6 +68,7 @@ li {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
+    letter-spacing: 0.02em
 }
 
 .order-btn {
@@ -72,7 +77,7 @@ li {
     background-color: #4D5AE5;
     color: #FFF;
     border-radius: 4px;
-    padding: 16px 32px;
+    line-height: 1.5
 }
 
 .order-btn:hover,
@@ -85,18 +90,29 @@ h3 {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    
 }
 
-.team-section {
-    background: #F4F4FD;
-    height: 732px;
+.section-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
+
+.portfolio-item {
+    background-color: #FFFFFF;
+}
+
+.timmate-pos {
+    font-size: 16px;
+}
+
+
 
 footer {
     background: #2E2F42; 
-    color: #FFF;
-}
-
-footer .logo {
     color: #FFF;
 }
