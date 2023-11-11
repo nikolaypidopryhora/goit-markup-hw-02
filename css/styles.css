@@ -1,0 +1,102 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.logo {
+    color: #2E2F42;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 0.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: #4D5AE5;
+}
+
+.menu-link {
+    color: #2E2F42;
+    font-weight: 500;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.contact {
+    font-style: normal;
+    color: #434455;
+}
+.contact:hover,
+.contact:focus {
+    color: #404BBF;
+}
+
+.hero-section {
+    height: 600px;
+    background: #2E2F42;
+    text-align: center;
+}
+
+.hero-motto {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+}
+
+.order-btn {
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #FFF;
+    border-radius: 4px;
+    padding: 16px 32px;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+    background: #404BBF;
+} 
+
+h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.team-section {
+    background: #F4F4FD;
+    height: 732px;
+}
+
+footer {
+    background: #2E2F42; 
+    color: #FFF;
+}
+
+footer .logo {
+    color: #FFF;
+}
